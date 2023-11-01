@@ -3,7 +3,6 @@ const app = express()
 const port = 3000
 
 var path = require('path');
-response.setHeader('Content-Type', 'text/css');
 
 app.set('view engine', 'ejs');
 app.use(express.static('public'));

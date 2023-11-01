@@ -27,15 +27,3 @@ app.get('/contact', (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
-
-
-app.get('/', (req, res) => {
-    res.render('index', {
-        pageTitle: 'Your Portfolio - Home',
-        welcomeMessage: 'WELCOME TO MY PORTFOLIO',
-        yourName: 'Dat Duong',
-        yourRole: 'a Data Analyst',
-        yourLocation: 'Vietnam',
-        currentYear: new Date().getFullYear()
-    });
-});

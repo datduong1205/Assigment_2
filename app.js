@@ -28,4 +28,7 @@ app.get('/contact', (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
+<<<<<<< HEAD
 
+=======
+>>>>>>> e3997ab7963def3a7bc79b214b40f4fdb3336686

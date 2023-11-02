@@ -5,6 +5,10 @@ const app = express()
 // Define the port number for the server to listen on.
 const port = 3000
 
+<<<<<<< HEAD
+=======
+var path = require('path');
+>>>>>>> a140c53f7e482c59dce5e4b40f8bab3ad6b07b6e
 
 // Import the 'path' module to work with file paths.
 var path = require('path');

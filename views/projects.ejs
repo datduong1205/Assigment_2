@@ -17,23 +17,7 @@
 
 <body>
     <!-- header -->
-    <header>
-        <div class="container">
-            <nav class="navbar">
-                <!-- logo -->
-                <div class="navbar_logo">
-                    <img src="images/DD.png" alt="website logo">
-                </div>
-                <!-- links -->
-                <ul class="navbar_links">
-                    <li class="navbar_link"><a href="/">HOME</a></li>
-                    <li class="navbar_link"><a href="/about">ABOUT ME</a></li>
-                    <li class="navbar_link"><a href="/projects">PROJECTS</a></li>
-                    <li class="navbar_link"><a href="/contact">CONTACT</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <%- include('header') %>
 
     <!-- Porfilio -->
     <section id="projects">
@@ -54,14 +38,7 @@
     </section>
 
     <!-- footer -->
-    <footer>
-        <div class="container">
-            <p class="footer_text">
-                My name is Dat Duong, I'm from Vietnam <br>
-                © 2023 by Dat Duong
-            </p>
-        </div>
-    </footer>
+    <%- include('footer') %>
 
 </body>
 
